@@ -21,12 +21,13 @@ body{
     margin: 50px;
     background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     box-shadow: 0 35px 35px rgba(0,0,0,0.5);
 
 }
 .container .left-side{
     position: relative;
+    grid-column: 1;
     background-color: #003147;
     padding: 40px;
 }
@@ -125,6 +126,7 @@ body{
 }
 .container .right-side{
     position: relative;
+    grid-column: span 2;
     background-color: #fff;
     padding: 40px;
     
